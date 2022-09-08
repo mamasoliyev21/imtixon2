@@ -1,0 +1,312 @@
+.hero {
+    margin-top: 41px;
+    border: 1px solid;
+    height: 650px;
+    background-image: url(../../images/hero__bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right -30px;
+    
+    &__wrapper {
+        padding-top: 115px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    &__title {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        padding-top: 153px;
+        font-size: 40px;
+        line-height: 40px;
+        // text-align: center;
+        letter-spacing: -1.78571px;
+        color: #FFFFFF;
+    }
+    
+    &__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        // text-align: center;
+        color: #FFFFFF;  
+        margin-top: 24px;      
+    }
+    &__btn{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 34px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 14px 39px;
+        background: #FCB72B;
+        margin-bottom: 170px;
+    }
+    &__btn:hover{
+        background: #F2F2F2;
+        color: #FCB72B;
+        border: 1px solid #FCB72B;
+    }
+    &__btn:active{
+        background: #FFFFFF;color: #FCB72B;
+
+
+    }
+}
+@media screen and (min-width: 768px) {
+    .hero{
+        &__list{
+            width: 100%;
+        }
+        &__title{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;
+        }
+        &__text{
+            width: 573px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+        }
+    }
+}
+@media screen and (min-width: 565px) {
+    .hero{
+        &__list{
+            width: 100%;
+        }
+        &__title{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;
+        }
+        &__text{
+            width: 573px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+        }
+    }
+}
+@media screen and (min-width:1440px) {
+    .hero{
+        &__wrapper{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            text-align: start;
+        }
+        &__title{
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;
+        }
+        &__text{
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            padding-left: 77px;
+            
+        }
+    }
+}
+
+// .hero{
+    //     // margin: 0 auto;
+    //     background-image: url(../../images/hero__bg.jpg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     // max-width: 100%;
+    //     background-position: center;
+    //     margin-top: 40px;
+    //     &__wrapper{
+        //         width: 100%;
+        //         margin-top: 20px;
+        
+        //     }
+        //     &__box{
+            //         width: 100%;
+            //     }
+            //     &__title{
+                
+                //     }
+                //     &__title{
+                    //         max-width: 100%;
+                    //         color: #FFFFFF;
+                    //         padding-top: 273px;
+                    //         // padding-left: 53px;
+                    //         font-family: 'Space Mono';
+                    //         font-style: normal;
+                    //         font-weight: 700;
+                    //         font-size: 36px;
+                    //         line-height: 56px;
+                    //         letter-spacing: -2.5px;
+                    //     }
+                    //     &__text{
+                        //         width: 405px;
+                        //         max-width: 100%;
+                        //         color: #FFFFFF;
+                        //         font-family: 'Lexend Deca';
+                        //         font-weight: 400;
+                        //         font-size: 15px;
+                        //         line-height: 25px;
+                        //         font-style: normal;
+                        //         padding-left: 57px;
+                        //         padding-top: 40px;
+                        //     }
+                        //     &__box{
+                            //         width: 100%;
+                            //     }
+                            //     &__bok{
+                                //         width: 100%;
+                                
+                                //         display: flex;
+                                //     }
+                                //     &__button{
+                                    //         padding-top: 40px;
+                                    //         padding-bottom: 207px;
+                                    //     }
+                                    //     &__btn{
+                                        //         width: 180px;
+                                        //         height: 53px;
+                                        //         font-family: 'Space Mono';
+                                        //         font-style: normal;
+                                        //         font-weight: 700;
+                                        //         font-size: 15px;
+                                        //         line-height: 25px;
+                                        //         text-align: center;
+                                        //         color: #FFFFFF;
+                                        //         background-color: #FCB72B;
+                                        //     }
+                                        //     &__btn:hover{
+                                            //         background: #F2F2F2;
+                                            //         color: #FCB72B;
+                                            //         border: 1px solid #FCB72B;
+                                            //     }
+                                            //     &__btn:active{
+                                                //         background: #FFFFFF;color: #FCB72B;
+                                                
+                                                //     }
+                                                // }
+                                                
+                                                //     @media screen and (max-width: 768px) {
+                                                    //         .hero{
+                                                        //             &__wrapper{
+                                                            //                 width: 100%;
+                                                            //             }
+                                                            //             &__titl{
+                                                                //                 margin: 0 auto;
+                                                                //                 font-family: 'Space Mono';
+                                                                //                 font-style: normal;
+                                                                //                 font-weight: 700;
+                                                                //                 font-size: 56px;
+                                                                //                 line-height: 56px;
+                                                                //                 text-align: center;
+                                                                //                 letter-spacing: -2.5px;
+                                                                //                 color: #FFFFFF;
+                                                                //                 width: 573px;
+                                                                //             }
+                                                                //             &__button{
+                                                                    //                 width: 100%;
+                                                                    //                 display: none;
+                                                                    //                 text-align: center;
+                                                                    //             }
+                                                                    //             &__text{
+                                                                        //                 margin: 0 auto;
+                                                                        //                 font-family: 'Lexend Deca';
+                                                                        //                 font-style: normal;
+                                                                        //                 font-weight: 400;
+                                                                        //                 font-size: 15px;
+                                                                        //                 line-height: 25px;
+                                                                        //                 text-align: center;
+                                                                        //                 color: #FFFFFF;
+                                                                        //                 padding: 0;
+                                                                        //             }
+                                                                        //             // &__button{
+                                                                            //                 //     text-align: center;
+                                                                            //                 // }
+                                                                            //                 &__btn{
+                                                                                //                     font-family: 'Space Mono';
+                                                                                //                     font-style: normal;
+                                                                                //                     font-weight: 700;
+                                                                                //                     font-size: 15px;
+                                                                                //                     line-height: 25px;
+                                                                                //                     text-align: center;
+                                                                                //                     color: #FFFFFF;
+                                                                                //                 }
+                                                                                //             }
+                                                                                //         }
+                                                                                //         @media screen and (max-width: 375px) {
+                                                                                    //             .hero{
+                                                                                        //                 &__wrapper{
+                                                                                            
+                                                                                            //                     width: 100%;
+                                                                                            //                 }
+                                                                                            //                 &__titl {
+                                                                                                //                     width: 100%;
+                                                                                                //                 }
+                                                                                                //                 &__title{
+                                                                                                    //                     font-family: 'Space Mono';
+                                                                                                    //                     font-style: normal;
+                                                                                                    //                     font-weight: 700;
+                                                                                                    //                     font-size: 40px;
+                                                                                                    //                     line-height: 40px;
+                                                                                                    //                     text-align: center;
+                                                                                                    //                     letter-spacing: -1.78571px;
+                                                                                                    //                     color: #FFFFFF;
+                                                                                                    //                 }
+                                                                                                    //                 &__text{
+                                                                                                        //                     width: 100%;
+                                                                                                        //                     padding: 0;
+                                                                                                        //                     padding-top: 34px;
+                                                                                                        //                     font-family: 'Lexend Deca';
+                                                                                                        //                     font-style: normal;
+                                                                                                        //                     font-weight: 400;
+                                                                                                        //                     font-size: 15px;
+                                                                                                        //                     line-height: 25px;
+                                                                                                        //                     text-align: center;
+                                                                                                        //                     color: #FFFFFF;
+                                                                                                        //                 }
+                                                                                                        //             }
+                                                                                                        //         }
+                                                                                                        //         @media screen and (max-width: 511px) {
+                                                                                                            //             .hero{
+                                                                                                                //                 &__wrapper{
+                                                                                                                    //                     width: 100%;
+                                                                                                                    //                 }
+                                                                                                                    //                 &__box{
+                                                                                                                        //                     width: 100%;
+                                                                                                                        //                 }
+                                                                                                                        //             }
+                                                                                                                        //         }

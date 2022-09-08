@@ -1,0 +1,147 @@
+.header{
+    padding-top: 22px 0;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 10px;
+    &__nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 34px 0;
+        
+    }
+    &__list{
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item{
+        
+        align-items: center;
+        margin-right: 22px;
+    }
+    .fa-bars{
+        display: none;
+    }
+    &__link{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+    &__btn{
+        width: 180px;
+        height: 53px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #FCB72B;
+    }
+    &__btn:hover{
+        background: #F2F2F2;
+        color: #FCB72B;
+        border: 1px solid #FCB72B;
+    }
+    &__btn:active{
+        background: #FFFFFF;color: #FCB72B;
+
+
+    }
+}
+@media screen and (max-width:768px) {
+    .header{
+        &__nav{
+            width: 100%;
+            padding: 34px 0 34px 39px;
+        }
+        &__list{
+            padding-left: 0;
+
+        }
+        &__item{
+            margin-right: 0;
+        }
+        .fa-bars{
+            display: none;
+        }
+      
+    }
+}
+@media screen and (max-width: 375px) {
+    .header{
+        &__nav{
+            padding: 0;
+        }
+        &__list{
+            display: none;
+        }
+        &__button{
+            display: none;
+            padding: 0;
+        }
+        &__logo{
+            display: flex;
+        }
+        .fa-bars{
+            display: inline-block;
+            padding: 22px 50px;
+            color: #FCB72B;
+        }
+        &__logos{
+            padding-left: 37px;
+            justify-content: flex-start;
+        }
+        &__list{
+            display: none;
+        }
+        &__btn{
+            padding-right: 0;
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .header{
+        &__nav{
+            padding: 0;
+        }
+        &__list{
+            display: none;
+        }
+        &__button{
+            display: none;
+            padding: 0;
+        }
+        &__logo{
+            display: flex;
+        }
+        .fa-bars{
+            display: inline-block;
+            padding: 22px 50px;
+            color: #FCB72B;
+        }
+        &__logos{
+            padding-left: 37px;
+            justify-content: flex-start;
+        }
+        &__list{
+            display: none;
+        }
+        &__btn{
+            padding-right: 0;
+            display: none;
+        }
+    }
+}

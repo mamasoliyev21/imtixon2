@@ -1,0 +1,193 @@
+
+.footer1{
+    margin-top: 307px;
+    background-color: #495567;
+    // height: 300px;
+    &__box{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        // background-image: url(../../images/Mask.svg);
+        // background-repeat: no-repeat;
+        // background-position: bottom  right;    
+        // background-size: cover;    
+    }
+    &__store{
+        display: flex;
+        max-width: 100%;
+        width: 156px;
+        height: 56px;
+        border: 1px solid  #E5ECF4;
+        background-color: #E5ECF4;
+    }
+    .apple{
+        flex-direction: column;
+        padding-left: 11px;
+        padding-top: 8px;
+    }
+    .fa-apple{
+        padding: 14px 11px 14px 16px;
+        width: 24px;
+        height: 28px;
+        color: #495567;
+    }
+    .fa-share-from-square{
+        padding: 14px 11px 14px 16px;
+        width: 24px;
+        height: 28px;
+    }
+    .apple__p{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: -0.446429px;
+        color: #495567;
+    }
+    .apple__tet{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.892857px;
+        color: #495567;
+    }
+    &__title{
+        padding-top: 102px;
+        padding-bottom: 102px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+        width: 415px;
+        
+        
+    }
+    &__apple{
+        border-radius: 8px;
+        display: flex;
+        padding-top: 122px;
+        padding-bottom: 122px;
+        padding-right: 115px;
+        border-radius: 6px;
+        gap: 18px;
+    }
+}
+.footer2{
+    background-color: #333A44;
+    height: 96px;
+    border: 1px solid;
+    &__nav{
+        padding: 35px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        width: 249px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 420px;
+    }
+    &__item{
+        align-items: center;
+    }
+    &__link{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+    .icons{
+        width: 120px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;align-items: center;
+        font-size: 27px;
+        color: #FCB72B;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        .footer1{
+            &__box{
+                flex-direction: column;
+                height: 0;
+                height: 310px;
+                
+            }
+            &__title{
+                padding: 0;
+                padding-top: 88px;
+                margin: 0 auto;
+                text-align: center;
+                
+            }
+            
+            &__apple{
+                padding: 0;
+                margin: 0 auto;
+                padding-bottom: 88px;
+                padding-top: 40px;
+            }
+        }
+    }
+    .footer2{
+        &__nav{
+            width: 100%;
+        }
+        &__list{
+            margin: 0;
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .footer{
+        .footer1{
+            &__box{
+                width: 100%;
+                flex-direction: column;
+                height: 0;
+                height: 320px;
+                
+            }
+            &__title{
+                padding-top: 88px;
+                font-weight: 700;
+                width: 100%;
+                font-size: 32px;
+                line-height: 32px;
+                text-align: center;
+                letter-spacing: -1.42857px;
+                color: #FFFFFF;
+            }
+            &__apple{
+                padding-bottom: 88px;
+                padding-top: 40px;
+            }
+        }
+    }
+    .footer2{
+        &__nav{
+            width: 100%;
+            flex-direction: column;
+        }
+        &__list{
+            flex-direction: column;
+            padding-top: 40px;
+        }
+        .icons{
+            padding-top: 40px;
+        }
+    }
+}
